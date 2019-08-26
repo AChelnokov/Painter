@@ -1,0 +1,55 @@
+@import "~normalize.css";
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+$background-color: #1e0b21;
+$first-font: 'Indie Flower', cursive;
+
+$text-color: #fff;
+
+
+BODY {
+  background: $background-color;
+  font-family: $first-font;
+  color: $text-color;
+}
+
+.top-text {
+  font-size: 70px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#draw-block {
+  display: block;
+  margin: 0 auto;
+  cursor: crosshair;
+  border: 1px solid #fff;
+}
+
+.buttons {
+  display: table;
+  margin: 0 auto;
+
+  .button {
+    display: inline-block;
+    border: 1px solid;
+    padding: 10px 20px;
+    font-size: 30px;
+    margin: 15px auto 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-right: 20px;
+
+    &:hover {
+      background: $text-color;
+      color: $background-color;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "apc/whatisdrawn",
+    "authors": [
+        {
+            "name": "Anton Chelnokov",
+            "email": "a.p.chelnokov@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/http-foundation": "^5.0@dev",
+        "symfony/routing": "^5.0@dev",
+        "intervention/image": "^2.4@dev"
+    }
+}

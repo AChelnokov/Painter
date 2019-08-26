@@ -1,0 +1,7 @@
+/frontend/node_modules
+/public_html/js/chunks/*
+/public_html/js/*
+/public_html/css/*
+/vendor
+/.idea/
+/.idea/*
